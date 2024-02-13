@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dat54>
+ <Version value="7126027" />
+ <ContainerPaths>
+  <Item>DLC_DYNAMICGAUDIO\DG_SIRENS1</Item>
+ </ContainerPaths>
+ <Items>
+  <Item type="SoundSet">
+   <Name>dynamicg_sounds_sirens_soundset</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <SoundSets>
+    <Item>
+     <ScriptName>siren_epalt_horn</ScriptName>
+     <ChildSound>siren_epalt_horn_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_epalt_prty</ScriptName>
+     <ChildSound>siren_epalt_prty_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_epalt_wail</ScriptName>
+     <ChildSound>siren_epalt_wail_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_epalt_woop</ScriptName>
+     <ChildSound>siren_epalt_woop_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_epalt_yelp</ScriptName>
+     <ChildSound>siren_epalt_yelp_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_spectra2_wail</ScriptName>
+     <ChildSound>siren_spectra2_wail_d</ChildSound>
+    </Item>
+    <Item>
+     <ScriptName>siren_spectra2_yelp</ScriptName>
+     <ChildSound>siren_spectra2_yelp_d</ChildSound>
+    </Item>
+   </SoundSets>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_epalt_horn_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_dynamicgaudio/dg_sirens1</ContainerName>
+   <FileName>siren_epalt_horn</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_epalt_horn_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_epalt_horn_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="0" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_epalt_prty_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_dynamicgaudio/dg_sirens1</ContainerName>
+   <FileName>siren_epalt_prty</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_epalt_prty_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_epalt_prty_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="0" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_epalt_wail_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_dynamicgaudio/dg_sirens1</ContainerName>
+   <FileName>siren_epalt_wail</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_epalt_wail_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_epalt_wail_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="0" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_epalt_woop_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_dynamicgaudio/dg_sirens1</ContainerName>
+   <FileName>siren_epalt_woop</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_epalt_woop_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_epalt_woop_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="0" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_epalt_yelp_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_dynamicgaudio/dg_sirens1</ContainerName>
+   <FileName>siren_epalt_yelp</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_epalt_yelp_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_epalt_yelp_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="0" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_spectra2_wail_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_dynamicgaudio/dg_sirens1</ContainerName>
+   <FileName>siren_spectra2_wail</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_spectra2_wail_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_spectra2_wail_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="0" />
+   <PitchAngle value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>siren_spectra2_yelp_s</Name>
+   <Header>
+    <Flags value="0x0820E010" />
+    <Pitch value="0" />
+    <ReleaseTime value="50" />
+    <DopplerFactor value="30" />
+    <Category>vehicles_sirens</Category>
+    <VolumeCurveScale value="300" />
+    <Unk22 value="50" />
+   </Header>
+   <ContainerName>dlc_dynamicgaudio/dg_sirens1</ContainerName>
+   <FileName>siren_spectra2_yelp</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="DirectionalSound">
+   <Name>siren_spectra2_yelp_d</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="-100" />
+    <Category>vehicles_sirens</Category>
+   </Header>
+   <ChildSound>siren_spectra2_yelp_s</ChildSound>
+   <InnerAngle value="20" />
+   <OuterAngle value="65" />
+   <RearAttenuation value="-3" />
+   <YawAngle value="0" />
+   <PitchAngle value="0" />
+  </Item>
+ </Items>
+</Dat54>

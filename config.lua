@@ -404,6 +404,7 @@ ModelsWithNoTertiaryTone = {
 	"firetruk3",
 	"rfdtruck",
 	"lsfdtruck",
+	"lcpd2"
 }
 
 -- Vehicles with a 4th tone activated by a seperate button. Usually a Hi-Lo.
@@ -480,6 +481,8 @@ ModelsWithQuarternaryTone = {
 	"firerescue",
 	"firetruk2",
 	"firehazmat",
+	"lcpd2",
+	"lcpd4"
 }
 
 -- Vehicles with dual sirens
@@ -819,6 +822,7 @@ ModelsWithCencomSapphire = {
 }
 
 ModelsWith295HFS = {
+	"lcpd",
 	"amb_rox_sheriff",
 	"amb_rox_sheriff2",
 	"amb_rox_sheriffb",
@@ -1176,4 +1180,16 @@ ModelsWithCencomCarbideUltra = { -- Ultra Hi-Lo tone from Whelen Cencom Carbide 
 	"firerescue",
 	"firetruk2",
 	"firehazmat",
+}
+
+----------------------------------
+--     DYNAMIC GAMING TONES     --
+----------------------------------
+
+ModelsWithEPALT = {
+	"lcpd4"
+}
+
+ModelsWithAstroSpectra2 = {
+	"lcpd2"
 }

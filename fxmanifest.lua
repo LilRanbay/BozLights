@@ -21,4 +21,6 @@ data_file "AUDIO_SOUNDDATA" "audio/data/wsound_sounds.dat"
 
 -- Addon Sounds
 data_file "AUDIO_WAVEPACK" "audio/sfx/dlc_policingmpaudio"
+data_file "AUDIO_WAVEPACK" "audio/sfx/dlc_dynamicgaudio"
 data_file "AUDIO_SOUNDDATA" "audio/data/policingmpaudio_sounds.dat"
+data_file "AUDIO_SOUNDDATA" "audio/data/dynamicgaudio_sounds.dat"
