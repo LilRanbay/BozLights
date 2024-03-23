@@ -1156,7 +1156,7 @@ function SetAirManuStateForVeh(veh, newstate)
 				elseif Use295HFS(veh) then
 					PlaySoundFromEntity(snd_airmanu[veh], "siren_295hfs_horn", veh, "policingmp_sounds_sirens3_soundset", 0, 0)
 				elseif UseEPALT(veh) then
-					PlaySoundFromEntity(snd_airmanu[veh], "siren_epalt_horn", veh, "dynamicg_sounds_sirens_soundset", 0, 0)
+					PlaySoundFromEntity(snd_airmanu[veh], "siren_sapphire_horn", veh, "policingmp_sounds_sirens2_soundset", 0, 0)
 				elseif UseTouchmaster(veh) then
 					PlaySoundFromEntity(snd_airmanu[veh], "siren_touchmaster_horn", veh, "policingmp_sounds_sirens3_soundset", 0, 0)
 				elseif Use940Siren(veh) then
